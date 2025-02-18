@@ -1,0 +1,325 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    max-width: 1200px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    margin: 30px 0;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fb9333;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+* {
+    font-family: "Poppins";
+    color: #575757;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.nav-bar>a {
+    font-weight: 500;
+}
+
+.nav-bar>.selected-link {
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+}
+
+.soft-bold {
+    font-weight: 500;
+}
+
+.big-notes {
+}
+
+.notes {
+}
+
+.orange-text {
+    color: #fb9333;
+}
+
+.logo {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+
+header {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.nav-div {
+    margin: 0 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    background-color: #fb9333;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.introduction-section {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+}
+
+.introduction-text>button {
+    font-size: 18px;
+}
+
+.introduction-text {
+    width: 50%;
+}
+
+.highlighted-text {
+    padding: 15px;
+    display: inline;
+    border-radius: 30px;
+    background-color: #fff0dc;
+}
+
+.introduction-img {
+    width: 50%;
+}
+
+
+
+.achievements-section {
+
+    width: 85%;
+    margin: 50px auto 30px auto;   
+}
+
+.achievements {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.achievement {
+    box-sizing: border-box;
+    width: 30%;
+    border: 1px solid orange;
+    padding: 30px;
+    border-radius: 13%;
+}
+
+.achievement img {
+    width: 50px;
+    border-radius: 15%;
+    padding: 5px;
+    background-color: #ffe8c8;
+}
+
+.smaller-icon {
+    width: 48px;
+}
+
+.achievements-header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.achievements-header-div>p {
+    width:40%;
+}
+
+
+
+.reviews-section {
+    background-color: #fff5e8;
+    padding: 100px 0 100px 7.5%;
+    max-width: none;
+}
+
+.reviews-section>div {
+    display: flex;
+}
+
+.reviews-div {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu-section {
+    width: 85%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-section>h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.dishes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.dish-text-div {
+    position: relative;
+    top: -120px;
+}
+
+.dish-text-div>p {
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+.dish-name {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+
+.subscribe-section {
+    width: 85%;
+    margin: 50px auto 100px auto;
+    display: flex;
+    align-items: center;
+    background-color: #fff1de;
+    border-radius: 30px;
+}
+
+.subscribe-div {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto 100px auto;
+
+}
+
+.subscribe-div>h3 {
+    margin: 0;
+}
+
+.subscribe-div>h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.subscribe-div>p {
+    width: 75%;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.email-div {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 10px 10px 30px;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.email-div>button {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.email {
+    border: none;
+    width: 50%;
+    height: 70%;
+    font-size: 18px;
+}
+
+
+
+footer {
+    width: 85%;
+    max-width: 1200px;
+    gap: 15%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rights-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.features-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
