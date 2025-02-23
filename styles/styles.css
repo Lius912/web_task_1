@@ -50,7 +50,14 @@ a {
 }
 
 .secondary-text {
-    
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.medium-text {
+    font-weight: 600;
+    font-size: 24px;
 }
 
 
@@ -327,7 +334,6 @@ button:hover {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    gap: 100px;
     overflow: hidden;
     /* box-sizing: content-box; */
 }
@@ -349,6 +355,7 @@ button:hover {
 
 .review {
     background-color: white;
+    /* width: 300px; */
     border-radius: 10px;
     padding: 20px;
 }
